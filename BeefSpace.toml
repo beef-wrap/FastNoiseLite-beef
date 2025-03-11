@@ -1,5 +1,5 @@
 FileVersion = 1
-Projects = {FastNoiseLite-beef = {Path = "."}, example = {Path = "example"}}
+Projects = {FastNoiseLite-beef = {Path = "."}, example = {Path = "example"}, stb_image_write = {Path = "../stb-beef/stb_image_write"}}
 
 [Workspace]
 StartupProject = "example"

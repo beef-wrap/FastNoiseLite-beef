@@ -48,8 +48,9 @@
 // https://github.com/Auburn/FastNoiseLite
 
 using System;
+using System.Interop;
 
-namespace FastNoiseLite_Beef;
+namespace FastNoiseLite;
 
 public static class FastNoiseLite
 {
@@ -122,7 +123,7 @@ public static class FastNoiseLite
 		* Seed used for all noise types.
 		* @remark Default: 1337
 		*/
-		public int seed;
+		public c_int seed;
 
 		/**
 		* The frequency for all noise types.
@@ -153,7 +154,7 @@ public static class FastNoiseLite
 		* The octave count for all fractal noise types.
 		* @remark Default: 3
 		*/
-		public int octaves;
+		public c_int octaves;
 
 		/**
 		* The octave lacunarity for all fractal noise types.

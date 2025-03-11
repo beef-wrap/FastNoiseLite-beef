@@ -3,7 +3,7 @@ FileVersion = 1
 [Project]
 Name = "FastNoiseLite-beef"
 TargetType = "BeefLib"
-StartupObject = "FastNoiseLite_beef.Program"
+StartupObject = ""
 
 [Configs.Debug.Win64]
 CLibType = "DynamicDebug"
