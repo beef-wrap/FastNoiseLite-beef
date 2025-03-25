@@ -59,7 +59,7 @@ public static class FastNoiseLite
 	// typealias FNLfloat = double;
 
 	// Enums
-	public enum fnl_noise_type
+	public enum fnl_noise_type : c_int
 	{
 		FNL_NOISE_OPENSIMPLEX2,
 		FNL_NOISE_OPENSIMPLEX2S,
@@ -69,14 +69,14 @@ public static class FastNoiseLite
 		FNL_NOISE_VALUE
 	}
 
-	public enum fnl_rotation_type_3d
+	public enum fnl_rotation_type_3d : c_int
 	{
 		FNL_ROTATION_NONE,
 		FNL_ROTATION_IMPROVE_XY_PLANES,
 		FNL_ROTATION_IMPROVE_XZ_PLANES
 	}
 
-	public enum fnl_fractal_type
+	public enum fnl_fractal_type : c_int
 	{
 		FNL_FRACTAL_NONE,
 		FNL_FRACTAL_FBM,
@@ -86,7 +86,7 @@ public static class FastNoiseLite
 		FNL_FRACTAL_DOMAIN_WARP_INDEPENDENT
 	}
 
-	public enum fnl_cellular_distance_func
+	public enum fnl_cellular_distance_func : c_int
 	{
 		FNL_CELLULAR_DISTANCE_EUCLIDEAN,
 		FNL_CELLULAR_DISTANCE_EUCLIDEANSQ,
@@ -94,7 +94,7 @@ public static class FastNoiseLite
 		FNL_CELLULAR_DISTANCE_HYBRID
 	}
 
-	public enum fnl_cellular_return_type
+	public enum fnl_cellular_return_type : c_int
 	{
 		FNL_CELLULAR_RETURN_TYPE_CELLVALUE,
 		FNL_CELLULAR_RETURN_TYPE_DISTANCE,
@@ -105,7 +105,7 @@ public static class FastNoiseLite
 		FNL_CELLULAR_RETURN_TYPE_DISTANCE2DIV,
 	}
 
-	public enum fnl_domain_warp_type
+	public enum fnl_domain_warp_type : c_int
 	{
 		FNL_DOMAIN_WARP_OPENSIMPLEX2,
 		FNL_DOMAIN_WARP_OPENSIMPLEX2_REDUCED,

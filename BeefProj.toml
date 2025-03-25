@@ -7,7 +7,7 @@ StartupObject = ""
 
 [Configs.Debug.Win64]
 CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\fastnoiselited.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\fastnoiselited.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\fastnoiselite.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\fastnoiselite.lib"]
