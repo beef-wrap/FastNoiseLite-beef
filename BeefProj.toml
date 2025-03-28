@@ -6,8 +6,7 @@ TargetType = "BeefLib"
 StartupObject = ""
 
 [Configs.Debug.Win64]
-CLibType = "DynamicDebug"
-LibPaths = ["$(ProjectDir)\\libs\\windows\\fastnoiselited.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\fastnoiselite_d.lib"]
 
 [Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)\\libs\\windows\\fastnoiselite.lib"]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\fastnoiselit.lib"]
